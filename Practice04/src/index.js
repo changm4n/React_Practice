@@ -21,7 +21,7 @@ ReactDOM.render(
       <Route path="/posts/new" component={PostsNew} />
     	<Route path="/" component={PostsIndex} />
       </Switch>
-	 </div>
+	  </div>
     </BrowserRouter>
   </Provider>
   , document.querySelector('.container'));
